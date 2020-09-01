@@ -73,19 +73,47 @@ A train test split with a test size of 0.3 was performed on the data. The data w
 
 
 
+Comparison of loss versus validation loss over training time
+
 ![](neural_network_plots/loss_val_loss_third.png)
 
 
 
+
+
+The actual salary values versus the model's predictions (red line)
 
 ![](neural_network_plots/actual_predicted_third.png)
 
 
 
 
+The Distribution of the Error
+
 ![](neural_network_plots/distplot_error_third.png)
 
 
 
+## First Run : Original Data and no Early Stopping
+We are about 1.5 million off of the true salary values
+$1557000.4683485182
 
+
+## Second Run : Original Data and Early Stopping
+We are about a 1.4 million off of the true salary values
+We knocked off one hundred thousand with early stopping
+$1401024.2522743959
+
+
+## Third Run : Non Top 4% Data and Early Stopping
+Able to lower the error $200,000 when working with the non_top_4_pct
+$1193259.37054836
+
+
+
+# Conclusion
+
+* We can effectively predict an EPL player's salary based off of their features and statistics. Obviously the error results that we achieved aren't ideal, but we can be semi-confident in making predictions through the use of our neural network. 
+
+* Future Work: Include more data from different seasons / try to predict another factor like overall goals / Look at other leagues like MLS, Bundesliga, La Liga, etc.
 
