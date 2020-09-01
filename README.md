@@ -12,3 +12,8 @@
 ![](images/dataframe_head.png)
 
 ## More Info
+Listed above are folders that include various items: 
+* The RawData folder includes the raw data for the players dataset and the salary dataset. 
+* The CleanData folder includes the clean datasets for the players concatenated with salary dataset and the non top 4% in salary dataset. 
+* The plots folder includes the Exploratory Data Analysis Visualizations and some will be listed below. 
+* Lastly the notebook folder includes the jupyter notebook with all of the code to run for yourself. Enjoy!
