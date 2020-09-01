@@ -21,9 +21,12 @@ Listed above are folders that include various items:
 # Exploratory Data Analysis
 
 To gain greater insight into our label annual_salary, here is the distribution: 
+
 ![](plots/annual_salary_dist.png)
 
 As we can see most players are paid $5 million and less
+
+
 
 
 Now let's see which features have mild, strong, or no correlation with annual salary
@@ -31,4 +34,30 @@ Now let's see which features have mild, strong, or no correlation with annual sa
 ![](plots/correlation_heatmap.png)
 
 We can see that most features have a positive effect on a player's salary with factors such as goals_overall and clean_sheets_overall leading the way.
+
+
+
+
+Let's take a look at the clean_sheets_overall feature and see where most players
+
+![](plots/clean_sheets_count.png)
+
+Most players never achieved a clean sheet throughout the season, while some players obtained 20 or more clean sheets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
