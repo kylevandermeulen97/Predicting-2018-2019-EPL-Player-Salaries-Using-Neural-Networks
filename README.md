@@ -47,8 +47,18 @@ Most players never achieved a clean sheet throughout the season, while some play
 
 
 
+Let's delve deeper and look at leaguewide in respect to which teams carry a certain amount of each position
+
+![](plots/position_team_distribution.png)
+
+We can see that most teams carry about the same number of each position
 
 
+
+
+Most notably teams spend a certain amount on their players, so here is a disribution of salary spent by team
+
+![](plots/
 
 
 
