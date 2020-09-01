@@ -73,7 +73,7 @@ A train test split with a test size of 0.3 was performed on the data. The data w
 
 
 
-
+![](neural_network_plots/loss_val_loss_third.png)
 
 
 
