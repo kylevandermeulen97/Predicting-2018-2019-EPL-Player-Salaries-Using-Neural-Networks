@@ -2,5 +2,9 @@
 
 ## Dataset Overview
 * We will be using a 2018-2019 English Premier League Players Dataset provided by https://footystats.org/download-stats-csv#whats_included
-* The original dataset did not include any annual salary feature, so additional 2018-2019 salary data from https://www.spotrac.com/epl/rankings/2018/ was web scraped and joined to the existing dataframe to get a complete dataset.
-The datasets are both cleaned and stored in the folder CleanData listed above 
+* The original dataset did not include any annual salary feature, so additional 2018-2019 salary data from was web scraped and joined to the existing dataframe to get a complete dataset https://www.spotrac.com/epl/rankings/2018/
+* The datasets are both cleaned and stored in the folder CleanData listed above 
+
+## Dataset Breakdown
+![Image of Data Breakdown]
+(https://octodex.github.com/images/yaktocat.png)
