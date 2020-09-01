@@ -3,6 +3,8 @@
 ## Dataset Overview
 * We will be using a 2018-2019 English Premier League Players Dataset provided by https://footystats.org/download-stats-csv#whats_included
 * The original dataset did not include any annual salary feature, so additional 2018-2019 salary data from was web scraped and joined to the existing dataframe to get a complete dataset https://www.spotrac.com/epl/rankings/2018/
+* The label: annual_salary
+* The original annual salary was in pounds so to make it easier to comprehend we will convert the amount to US dollars based on the average exchange rate in 2018. 1.3349 USD https://www.exchangerates.org.uk
 * The datasets are both cleaned and stored in the folder CleanData listed above 
 
 ## Data Description
@@ -58,12 +60,14 @@ We can see that most teams carry about the same number of each position
 
 Most notably teams spend a certain amount on their players, so here is a disribution of salary spent by team
 
-![](plots/
+![](plots/salary_spent_team.png)
+
+We right away can see the big five in Arsenal, Chelsea, Liverpool, Man City, and Man United. While on the other hand the newly promoted teams don't even have a budget close to the big spenders. It is worthy to note that the club that spent the most was Man City and they won the title. 
 
 
 
 
-
+# Neural Network (Regression)
 
 
 
