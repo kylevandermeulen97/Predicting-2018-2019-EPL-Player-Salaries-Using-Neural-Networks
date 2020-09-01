@@ -6,5 +6,4 @@
 * The datasets are both cleaned and stored in the folder CleanData listed above 
 
 ## Dataset Breakdown
-![Image of Data Breakdown]
-
+![](images/Data_Overview.png)
