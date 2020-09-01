@@ -1,2 +1,2 @@
-# Predicting-2018-2019-EPL-Player-Salaries-Using-Neural-Networks
-## Let's Go
+# Predicting 2018-2019 EPL Player Salaries Using Neural Networks
+
