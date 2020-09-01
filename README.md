@@ -69,6 +69,9 @@ We right away can see the big five in Arsenal, Chelsea, Liverpool, Man City, and
 
 # Neural Network (Regression)
 
+A train test split with a test size of 0.3 was performed on the data. The data was then scaled and normalized to ensure that all the data was in the same range. A Sequential model was then created with a Dense input layer of 62 neurons and three other hidden layers of 31,16,and 8 neurons. The activation function that was performed was a rectified linear unit('relu'). Lastly, the model was compiled using a 'adam' optimizer and a loss of 'mean squared error'. In our three runs when we used early stopping and the non_top_4_pct data we achieved the lowest mse and best val_loss and loss relationship. The best model ran at 535 epochs and here are some visuals to highlight the results.
+
+
 
 
 
