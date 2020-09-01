@@ -78,3 +78,13 @@ A train test split with a test size of 0.3 was performed on the data. The data w
 
 
 
+![](neural_network_plots/actual_predictions_third.png)
+
+
+
+
+![](neural_network_plots/distplot_error_third.png)
+
+
+
+
