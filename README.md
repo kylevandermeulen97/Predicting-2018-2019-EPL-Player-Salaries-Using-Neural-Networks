@@ -20,3 +20,7 @@ Listed above are folders that include various items:
 
 # Exploratory Data Analysis
 
+To gain greater insight into our label annual_salary, here is the distribution: 
+![](plots/annual_salary_dist.png)
+
+As we can see most players are paid $5 million and less
