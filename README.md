@@ -96,18 +96,18 @@ The Distribution of the Error
 
 ## First Run : Original Data and no Early Stopping
 We are about 1.5 million off of the true salary values
-$1557000.4683485182
+$1,557,000.4683485182
 
 
 ## Second Run : Original Data and Early Stopping
 We are about a 1.4 million off of the true salary values
 We knocked off one hundred thousand with early stopping
-$1401024.2522743959
+$1,401,024.2522743959
 
 
 ## Third Run : Non Top 4% Data and Early Stopping
 Able to lower the error $200,000 when working with the non_top_4_pct
-$1193259.37054836
+$1,193,259.37054836
 
 
 
